@@ -1,0 +1,942 @@
+    {
+    "PATNO": {
+        "Description": "Participant ID"
+        },
+    "COHORT": {
+        "Description": "Enrollment cohort",
+        "Levels": {
+            "PD" : "Parkinson's Disease",
+            "HC" : "Healthy Control",
+            "SWEDD" : "SWEDD",
+            "Prodromal" : "Prodromal"
+        }
+    },
+   "ENROLL_AGE":{
+        "Description": "Age at Enrollment"
+   },
+   "GENETICS": {
+        "Description": "Mutation at Enrollment",
+        "Levels" : {
+            "PINK1": "Pink1 Mutation at Enrollment", 
+            "PARKIN": "Parkin Mutation at Enrollment",
+            "SRDC": "Sporadic PD at Enrollment", 
+            "HPSM": "Hyposmia / Generalized Risk at Enrollment",
+            "RBD": "RBD at Enrollment",
+            "LRRK2": "LRRK2 Mutation at Enrollment", 
+            "SNCA": "SNCA Mutation at Enrollment", 
+            "GBA": "GBA Mutation at Enrollment"
+        }
+   },
+   "ETHNICITY": {
+        "Description": "Race",
+        "Levels": {
+            "ASIAN": "Identify self as Asian", 
+            "BLACK": "Identify self as Black/African American",
+            "HAWOPI": "Identify self as Hawaiian/Other Pacific Islander",
+            "INDALS": "Identify self as American Indian/Alaska Native", 
+            "UNKNOWN": "Race Unknown", 
+            "WHITE": "Identify self as White", 
+            "NOTSPECIFIED": "Race not specified"
+        }
+   },
+   "HANDED": {
+        "Description": "Handedness"
+        },
+   "EVENT_ID": {
+        "Description": "Visit_ID",
+        "Levels": {
+            "SC": "Screening",
+            "BL": "Baseline"
+        }
+   },
+   "ANYFAMPD": {
+    "Description": "Do you have any family history of Parkinson's Disease or Parkinsonism?",
+    "Levels": {
+        "1": "Yes",
+        "0": "No"
+    }
+},
+    "PRIMDIAG": {
+        "Description": "Most likely primary diagnosis",
+        "Levels": {
+            "1":	"Idiopathic PD",	
+            "2":	"Alzheimer's disease",
+            "3":	"Frontotemporal dementia",	
+	        "4":	"Corticobasal syndrome",	
+            "5":	"Dementia with Lewy bodies",	
+	        "6":	"Dopa-responsive dystonia",	
+	        "7":	"Essential tremor",	
+	        "8":	"Hemiparkinson/hemiatrophy syndrome",	
+	        "9":	"Juvenile autosomal recessive parkinsonism",	
+        	"10":	"Motor neuron disease with parkinsonism",	
+	        "11":	"Multiple system atrophy",	
+	        "12":	"Neuroleptic-induced parkinsonism",	
+            "13":	"Normal pressure hydrocephalus",	
+            "14":	"Progressive supranuclear palsy",	
+            "15":	"Psychogenic parkinsonism",	
+	        "16":	"Vascular parkinsonism",	
+	        "17":	"No PD nor other neurological disorder",	
+	        "18": "Spinocerebellar Ataxia (SCA)",	
+	        "23":	"Prodromal non-motor PD",	
+	        "24":	"Prodromal motor PD",
+        	"25":	"Prodromal Synucleinopathy"	  
+        }
+    },
+    "NEWDIAGEXP": {
+        "Description": "Research diagnosis change explanation"
+    },
+    "OTHNEURO": {
+        "Description": "Other neurological disorder(s) (specify)"
+    },
+    "DXLVL": {
+        "Description": "Confidence in most likely primary diagnosis",
+        "Levels": {
+            "1": "76 - 100%",
+            "2": "51 - 75%",
+            "3": "26 - 50%",
+            "4": "0 - 25%"
+        }
+    },
+    "SXDT": {
+        "Description": "Date of Symptom"
+    },
+    "PDDXDT": {
+        "Description": "Date of Parkinson's disease diagnosis"
+    },
+    "DXTREMOR": {
+        "Description": "Resting Tremor present at diagnosis?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes",
+            "2": "Unknown"
+        }
+    },
+    "DXBRADY": {
+        "Description": "Rigidity present at diagnosis?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes",
+            "2": "Unknown"
+        }
+    },
+    "DXPOSINS": {
+        "Description": "Postural instability present at dx?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes",
+            "2": "Unknown"
+        }
+    },
+    "DXOTHS": {
+        "Description": "Other symptom present at diagnosis?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes",
+            "2": "Unknown"
+        }
+    },
+    "DXRIGID": {
+        "Description": "Rigidity present at diagnosis?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes",
+            "2": "Unknown"
+        }
+    },
+    "UPSITFORM":{
+        "Description": "UPSIT form version administered",
+        "Levels": {
+            "1": "Original",
+            "2": "Revised"
+        }
+    },
+    "UPSIT_PRCNTGE": {
+        "Description": "UPSIT Percentage 0 - 100"
+    },
+    "EDUCYRS": {
+        "Description": "Number of years of education"
+    },
+    "NUPSOURC": {
+        "Description": "Primary Source of Information",
+        "Levels": {
+            "1": "Patient",
+            "2": "Caregiver",
+            "3": "Patient and Caregiver in Equal Proportion"
+        }
+    },
+    "NP1SLPN": {
+        "Description": "SLEEP PROBLEMS (NIGHT)",
+        "Levels": {
+            "0": "Normal: No problems.",
+            "1": "Slight: Sleep problems are present but usually do not cause trouble getting a full night of sleep.",
+            "2": "Mild: Sleep problems usually cause some difficulties getting a full night of sleep.",
+            "3": "Moderate: Sleep problems cause a lot of difficulties getting a full night of sleep, but I still usually sleep for more than half the night.",
+            "4": "Severe: I usually do not sleep for most of the night."
+        }
+    },
+    "NP1SLPD": {
+        "Description": "DAYTIME SLEEPINESS",
+        "Levels": {
+            "0": "Normal: No daytime sleepiness.",
+            "1": "Slight: Daytime sleepiness occurs but I can resist and I stay awake.",
+            "2": "Mild: Sometimes I fall asleep when alone and relaxing. For example, while reading or watching TV.",
+            "3": "Moderate: I sometimes fall asleep when I should not. For example, while eating or talking with other people.",
+            "4": "Severe: I often fall asleep when I should not. For example, while eating or talking with other people."
+        }
+    },
+    "NP1PAIN": {
+        "Description": "PAIN AND OTHER SENSATIONS",
+        "Levels": {
+            "0": "Normal: No uncomfortable feelings.",
+            "1": "Slight: I have these feelings. However, I can do things and be with other people without difficulty.",
+            "2": "Mild: These feelings cause some problems when I do things or am with other people.",
+            "3": "Moderate: These feelings cause a lot of problems, but they do not stop me from doing things or being with other people.",
+            "4": "Severe: These feelings stop me from doing things or being with other people."
+        }
+    },
+    "NP1URIN": {
+        "Description": "URINARY PROBLEMS",
+        "Levels": {
+            "0": "Normal: No urine control problems.",
+            "1": "Slight: I need to urinate often or urgently. However, these problems do not cause difficulties with my daily activities.",
+            "2": "Mild: Urine problems cause some difficulties with my daily activities. However, I do not have urine accidents.",
+            "3": "Moderate: Urine problems cause a lot of difficulties with my daily activities, including urine accidents.",
+            "4": "Severe: I cannot control my urine and use a protective garment or have a bladder tube."
+        }
+    },
+    "NP1CNST": {
+        "Description": "CONSTIPATION PROBLEMS",
+        "Levels": {
+            "0": "Normal: No constipation.",
+            "1": "Slight: I have been constipated. I use extra effort to move my bowels. However, this problem does not disturb my activities or my being comfortable.",
+            "2": "Mild: Constipation causes me to have some troubles doing things or being comfortable.",
+            "3": "Moderate: Constipation causes me to have a lot of trouble doing things or being comfortable. However, it does not stop me from doing anything.",
+            "4": "Severe: I usually need physical help from someone else to empty my bowels."
+        }
+    },
+    "NP1LTHD": {
+        "Description": "LIGHTHEADEDNESS ON STANDING",
+        "Levels": {
+            "0": "Normal: No dizzy or foggy feelings.",
+            "1": "Slight: Dizzy or foggy feelings occur. However, they do not cause me troubles doing things.",
+            "2": "Mild: Dizzy or foggy feeling cause me to hold on to something, but I do not need to sit or lie back down.",
+            "3": "Moderate: Dizzy or foggy feelings cause me to sit or lie down to avoid fainting or falling.",
+            "4": "Severe: Dizzy or foggy feelings cause me to fall or faint."
+        }
+    },
+    "NP1FATG": {
+        "Description": "FATIGUE",
+        "Levels": {
+            "0": "Normal: No fatigue.",
+            "1": "Slight: Fatigue occurs. However it does not cause me troubles doing things or being with people.",
+            "2": "Mild: Fatigue causes me some troubles doing things or being with people.",
+            "3": "Moderate: Fatigue causes me a lot of troubles doing things or being with people. However, it does not stop me from doing anything.",
+            "4": "Severe: Fatigue stops me from doing things or being with people."
+        }
+    },
+    "NP1PTOT": {
+        "Description": "MDS-UPDRS Part I (Patient Questionnaire) Total Score. Mapped using formula: NP1SLPN+NP1SLPD+NP1PAIN+NP1URIN+NP1CNST+NP1LTHD+NP1FAT"
+    },
+    "NP1COG": {
+        "Description": "COGNITIVE IMPAIRMENT",
+        "Levels": {
+            "0": "Normal: No cognitive impairment.",
+            "1": "Slight: Impairment appreciated by patient or caregiver with no concrete interference with the patient's ability to carry out normal activities and social interactions.",
+            "101": "Unable to Rate",
+            "2": "Mild: Clinically evident cognitive dysfunction, but only minimal interference with the patient's ability to carry out normal activities and social interactions.",
+            "3": "Moderate: Cognitive deficits interfere with but do not preclude the patient's ability to carry out normal activities and social interactions.",
+            "4": "Severe: Cognitive dysfunction precludes the patient's ability to carry out normal activities and social interactions."
+        }
+    },
+    "NP1HALL": {
+        "Description": "HALLUCINATIONS AND PSYCHOSIS",
+        "Levels": {
+            "0": "Normal: No hallucinations or psychotic behavior.",
+            "1": "Slight: Illusions or non-formed hallucinations, but patient recognizes them without loss of insight.",
+            "101": "Unable to Rate",
+            "2": "Mild: Formed hallucinations independent of environmental stimuli. No loss of insight.",
+            "3": "Moderate: Formed hallucinations with loss of insight.",
+            "4": "Severe: Patient has delusions or paranoia."
+        }
+    },
+    "NP1DPRS": {
+        "Description": "DEPRESSED MOODS",
+        "Levels": {
+            "0": "Normal: No depressed mood.",
+            "1": "Slight: Episodes of depressed mood that are not sustained for more than one day at a time. No interference with patient's ability to carry out normal activities and social interactions.",
+            "101": "Unable to Rate",
+            "2": "Mild: Depressed mood that is sustained over days, but without interference with normal activities and social interactions.",
+            "3": "Moderate: Depressed mood that interferes with, but does not preclude the patient's ability to carry out normal activities and social interactions.",
+            "4": "Severe: Depressed mood precludes patient's ability to carry out normal activities and social interactions."
+        }
+    },
+    "NP1ANXS": {
+        "Description": "ANXIOUS MOOD",
+        "Levels": {
+            "0": "Normal: No anxious feelings.",
+            "1": "Slight: Anxious feelings present but not sustained for more than one day at a time. No interference with patient's ability to carry out normal activities and social interactions.",
+            "101": "Unable to Rate",
+            "2": "Mild: Anxious feelings are sustained over more than one day at a time, but without interference with patient's ability to carry out normal activities and social interactions.",
+            "3": "Moderate: Anxious feelings interfere with, but do not preclude, the patient's ability to carry out normal activities and social interactions.",
+            "4": "Severe: Anxious feelings preclude patient's ability to carry out normal activities and social interactions."
+        }
+    },
+    "NP1APAT": {
+        "Description": "APATHY",
+        "Levels": {
+            "0": "Normal: No apathy.",
+            "1": "Slight: Apathy appreciated by patient and/or caregiver, but no interference with daily activities and social interactions.",
+            "101": "Unable to Rate",
+            "2": "Mild: Apathy interferes with isolated activities and social interactions.",
+            "3": "Moderate: Apathy interferes with most activities and social interactions.",
+            "4": "Severe: Passive and withdrawn, complete loss of initiative."
+        }
+    },
+    "NP1DDS": {
+        "Description": "FEATURES-DOPAMINE DYSREGULATION SYNDROME",
+        "Levels": {
+            "0": "Normal: No problems present.",
+            "1": "Slight: Problems are present but usually do not cause any difficulties for the patient or family/caregiver.",
+            "101": "Unable to Rate",
+            "2": "Mild: Problems are present and usually cause a few difficulties in the patient's personal and family life.",
+            "3": "Moderate: Problems are present and usually cause a lot of difficulties in the patient's personal and family life.",
+            "4": "Severe: Problems are present and preclude the patient's ability to carry out normal activities or social interactions or to maintain previous standards in personal and family life."
+        }
+    },
+    "NP1RTOT": {
+        "Description": "MDS-UPDRS Part I (Rater Completed) Total Score. Mapped using formula NP1COG+NP1HALL+NP1DPRS+NP1ANXS+NP1APAT+NP1DDS"
+    },
+    "NP2SPCH": {
+        "Description": "SPEECH",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: My speech is soft, slurred or uneven, but it does not cause others to ask me to repeat myself.",
+            "2": "Mild: My speech causes people to ask me to occasionally repeat myself, but not everyday.",
+            "3": "Moderate: My speech is unclear enough that others ask me to repeat myself every day even though most of my speech is understood.",
+            "4": "Severe: Most or all of my speech cannot be understood."
+        }
+    },
+    "NP2SALV": {
+        "Description": "SALIVA + DROOLING",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I have too much saliva, but do not drool.",
+            "2": "Mild: I have some drooling during sleep, but none when I am awake.",
+            "3": "Moderate: I have some drooling when I am awake, but I usually do not need tissues or a handkerchief.",
+            "4": "Severe: I have so much drooling that I regularly need to use tissues or a handkerchief to protect my clothes."
+        }
+    },
+    "NP2SWAL": {
+        "Description": "CHEWING AND SWALLOWING",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I am aware of slowness in my chewing or increased effort at swallowing, but I do not choke or need to have my food specially prepared.",
+            "2": "Mild: I need to have my pills cut or my food specially prepared because of chewing or swallowing problems, but I have not choked over the past week.",
+            "3": "Moderate: I choked at least one in the past week.",
+            "4": "Severe: Because of chewing and swallowing problems, I need a feed tube."
+        }
+    },
+    "NP2EAT": {
+        "Description": "EATING TASKS",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I am slow, but I do not need any help handling my food and have not had food spills while eating.",
+            "2": "Mild: I am slow with my eating and have occasional food spills. I may need help with a few tasks such as cutting meat.",
+            "3": "Moderate: I need help with many eating tasks but can manage some alone.",
+            "4": "Severe: I need help for most or all eating tasks."
+        }
+    },
+    "NP2DRES": {
+        "Description": "DRESSING",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I am slow, but I do not need help.",
+            "2": "Mild: I am slow and need help for a few dressing tasks (buttons, bracelets).",
+            "3": "Moderate: I need help for many dressing tasks.",
+            "4": "Severe: I need help for most or all dressing tasks."
+        }
+    },
+    "NP2HYGN": {
+        "Description": "HYGIENE",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I am slow, but I do not need help.",
+            "2": "Mild: I need someone else to help me with some hygiene tasks.",
+            "3": "Moderate: I need help for many hygiene tasks.",
+            "4": "Severe: I need help for most or all hygiene tasks."
+        }
+    },
+    "NP2HWRT": {
+        "Description": "HANDWRITING",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: My writing is slow, clumsy or uneven, but all words are clear.",
+            "2": "Mild: Some words are unclear and difficult to read.",
+            "3": "Moderate: Many words are unclear and difficult to read.",
+            "4": "Severe: Most or all words cannot be read."
+        }
+    },
+    "NP2HOBB": {
+        "Description": "DOING HOBBIES AND OTHER ACTIVITIES",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I am a bit slow but do these activities easily.",
+            "2": "Mild: I have some difficulty doing these activities.",
+            "3": "Moderate: I have major problems doing these activities, but still do most.",
+            "4": "Severe: I am unable to do most or all of these activities."
+        }
+    },
+    "NP2TURN": {
+        "Description": "TURNING IN BED",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I have a bit of trouble turning, but I do not need any help.",
+            "2": "Mild: I have a lot of trouble turning and need occasional help from someone else.",
+            "3": "Moderate: To turn over I often need help from someone else.",
+            "4": "Severe: I am unable to turn over without help from someone else."
+        }
+    },
+    "NP2TRMR": {
+        "Description": "TREMOR",
+        "Levels": {
+            "0": "Normal: Not at all. I have no shaking or tremor.",
+            "1": "Slight: Shaking or tremor occurs but does not cause problems with any activities.",
+            "2": "Mild: Shaking or tremor causes problems with only a few activities.",
+            "3": "Moderate: Shaking or tremor causes problems with many of my daily activities.",
+            "4": "Severe: Shaking or tremor causes problems with most or all activities."
+        }
+    },
+    "NP2RISE": {
+        "Description": "GETTING OUT OF BED, CAR, OR DEEP CHAIR",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I am slow or awkward, but I usually can do it on my first try.",
+            "2": "Mild: I need more than one try to get up or need occasional help.",
+            "3": "Moderate: I sometimes need help to get up, but most times I can still do it on my own.",
+            "4": "Severe: I need help most or all of the time."
+        }
+    },
+    "NP2FREZ": {
+        "Description": "FREEZING",
+        "Levels": {
+            "0": "Normal: Not at all (no problems).",
+            "1": "Slight: I briefly freeze but I can easily start walking again. I do not need help from someone else or a walking aid (cane or walker) because of freezing.",
+            "2": "Mild: I freeze and have trouble starting to walk again, but I do not need someone's help or a walking aid (cane or walker) because of freezing.",
+            "3": "Moderate: When I freeze I have a lot of trouble starting to walk again and, because of freezing, I sometimes need to use a walking aid or need someone else's help.",
+            "4": "Severe: Because of freezing, most or all of the time, I need to use a walking aid or someone's help."
+        }
+    },
+    "NP2PTOT": {
+        "Description": "MDS-UPDRS Part II Total Score. Mapped using formula NP2SPCH+NP2SALV+NP2SWAL+NP2EAT+NP2DRES+NP2HYGN+NP2HWRT+NP2HOBB+NP2TURN+NP2TRMR+NP2RISE+NP2WALK+NP2FREZ"
+    },
+    "PDTRTMNT": {
+        "Description": "Is the participant on medication or receiving deep brain stimulation for treating the symptoms of Parkinsons disease?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "PDSTATE": {
+        "Description": "Which functional state is the participant currently in?",
+        "Levels": {
+            "OFF": "Off is the typical functional state when participants have a poor response in spite of taking medications",
+            "ON": "On is the typical functional state when patients are receiving medication and have a good response"
+        }
+    },
+    "HRPOSTMED": {
+        "Description": "Hours between last dose of PD medication and NUPDRS3 exam"
+    },
+    "PDMEDYN": {
+        "Description": "Is participant on medication for PD?",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "DBSYN": {
+        "Description": "Does participant have DBS",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "NP3SPCH": {
+        "Description": "3.1 Speech",
+        "Levels": {
+            "0": "Normal: No speech problems.",
+            "1": "Slight: Loss of modulation, diction or volume, but still all words easy to understand.",
+            "101": "Unable to Rate",
+            "2": "Mild: Loss of modulation, diction, or volume, with a few words unclear, but the overall sentences easy to follow.",
+            "3": "Moderate: Speech is difficult to understand to the point that some, but not most, sentences are poorly understood.",
+            "4": "Severe: Most speech is difficult to understand or unintelligible."
+        }
+    },
+    "NP3FACXP": {
+        "Description": "3.2 Facial expression",
+        "Levels": {
+            "0": "Normal: No speech problems.",
+            "1": "Slight: Minimal masked facies manifested only by decreased frequency of blinking.",
+            "101": "Unable to Rate",
+            "2": "Mild: In addition to decreased eye-blink frequency, Masked facies present in the lower face as well, namely fewer movements around the mouth, such as less spontaneous smiling, but lips not parted.",
+            "3": "Moderate: Masked facies with lips parted some of the time when the mouth is at rest.",
+            "4": "Severe: Masked facies with lips parted most of the time when the mouth is at rest."
+        }
+    },
+    "NP3RIGN": {
+        "Description": "3.3a Rigidity - Neck",
+        "Levels": {
+            "0": "Normal: No rigidity.",
+            "1": "Slight: Rigidity only detected with activation maneuver.",
+            "101": "Unable to Rate",
+            "2": "Mild: Rigidity detected without the activation maneuver, but full range of motion is easily achieved.",
+            "3": "Moderate: Rigidity detected without the activation maneuver, full range of motion is achieved with effort.",
+            "4": "Severe: Rigidity detected without the activation maneuver and full range of motion not achieved."
+        }
+    },
+    "NP3RIGRU": {
+        "Description": "3.3b Rigidity - RUE, Right Upper Extremity"   
+    },
+    "NP3RIGLU": {
+        "Description": "3.3c Rigidity - LUE, Left Upper Extremity"   
+    },
+    "NP3RIGRL": {
+        "Description": "3.3d Rigidity - RLE, Right Lower Extremity"   
+    },
+    "NP3RIGLL": {
+        "Description": "3.3e Rigidity - LLE, Left Lower Extremity"   
+    },
+    "NP3FTAPR": {
+        "Description": "3.4a Finger Tapping Right Hand",
+        "Levels": {
+            "0": "Normal: No rigidity.",
+            "1": "Slight: Any of the following: a) the regular rhythm is broken with one or two interruptions or hesitations of the tapping movement; b) slight slowing; c) the amplitude decrements near the end of the 10 taps.",
+            "101": "Unable to Rate",
+            "2": "Mild: Any of the following: a) 3 to 5 interruptions during tapping; b) mild slowing; c) the amplitude decrements midway in the 10-tap sequence.",
+            "3": "Moderate: Any of the following: a) more than 5 interruptions during tapping or at least one longer arrest (freeze) in ongoing movement; b) moderate slowing; c) the amplitude decrements starting after the first tap.",
+            "4": "Severe: Cannot or can only barely perform the task because of slowing, interruptions or decrements."
+        }
+    },
+    "NP3FTAPL": {
+        "Description": "3.4b Finger Tapping Left Hand"   
+    },
+    "NP3HMOVR": {
+        "Description": "3.5a Hand movements - Right Hand"   
+    },
+    "NP3HMOVL": {
+        "Description": "3.5b Hand movements - Left Hand"   
+    },
+    "NP3PRSPR": {
+        "Description": "3.6a Pronation-Supination - Right Hand"    
+    },
+    "NP3PRSPL": {
+        "Description": "3.6b Pronation-Supination - Left Hand"
+    },
+    "NP3TTAPR": {
+        "Description": "3.7a Toe tapping - Right foot"
+    },
+    "NP3TTAPL": {
+        "Description": "3.7b Toe tapping - Left foot"
+    },
+    "NP3LGAGR": {
+        "Description": "3.8a Leg agility - Right leg"
+    },
+    "NP3LGAGL": {
+        "Description": "3.8b Leg agility - Left leg"
+    },
+    "NP3RISNG": {
+        "Description": "3.9 Arising from chair",
+        "Levels": {
+            "0": "Normal: No problems. Able to arise quickly without hesitation.",
+            "1": "Slight: Arising is slower than normal; or may need more than one attempt; or may need to move forward in the chair to arise. No need to use the arms of the chair.",
+            "101": "Unable to Rate",
+            "2": "Mild: Pushes self up from arms of chair without difficulty.",
+            "3": "Moderate: Needs to push off, but tends to fall back; or may have to try more than one time using arms of chair, but can get up without help.",
+            "4": "Severe: Unable to arise without help."
+        }
+    },
+    "NP3GAIT": {
+        "Description": "3.10 Gait",
+        "Levels": {
+            "0": "Normal: No problems. Able to arise quickly without hesitation.",
+            "1": "Slight: Independent walking with minor gait impairment.",
+            "101": "Unable to Rate",
+            "2": "Mild: Independent walking but with substantial gait impairment.",
+            "3": "Moderate: Requires an assistance device for safe walking (walking stick, walker) but not a person.",
+            "4": "Severe: Cannot walk at all or only with another person's assistance."
+        }
+    },
+    "NP3FRZGT": {
+        "Description": "3.11 Freezing of gait",
+        "Levels": {
+            "0": "Normal: No freezing.",
+            "1": "Slight: Freezes on starting, turning or walking through doorway with a single halt during any of these events, but then continues smoothly without freezing during straight walking.",
+            "101": "Unable to Rate",
+            "2": "Mild: Freezes on starting, turning or walking through doorway with more than one halt during any of these activities, but continues smoothly without freezing during straight walking.",
+            "3": "Moderate: Freezes once during straight walking.",
+            "4": "Severe: Freezes multiple times during straight walking."
+        }
+    },
+    "NP3PSTBL": {
+        "Description": "3.12 Postural stability",
+        "Levels": {
+            "0": "Normal: No problems: Recovers with one or two steps.",
+            "1": "Slight: 3-5 steps, but subject recovers unaided.",
+            "101": "Unable to Rate",
+            "2": "Mild: More than 5 steps, but subject recovers unaided.",
+            "3": "Moderate: Stands safely, but with absence of postural response; falls if not caught by examiner.",
+            "4": "Severe: Very unstable, tends to lose balance spontaneously or with just a gentle pull on the shoulders."
+        }
+    },
+    "NP3POSTR": {
+        "Description": "3.13 Posture",
+        "Levels": {
+            "0": "Normal: No problems.",
+            "1": "Slight: Not quite erect, but posture could be normal for older person.",
+            "101": "Unable to Rate",
+            "2": "Mild: Definite flexion, scoliosis or leaning to one side, but patient can correct posture to normal posture when asked to do so.",
+            "3": "Moderate: Stooped posture, scoliosis or leaning to one side that cannot be corrected volitionally to a normal posture by the patient.",
+            "4": "Severe: Flexion, scoliosis or leaning with extreme abnormality of posture."
+        }
+    },
+    "NP3BRADY": {
+        "Description": "3.14 Global spontaneity of movement",
+        "Levels": {
+            "0": "Normal: No problems.",
+            "1": "Slight: Slight global slowness and poverty of spontaneous movements.",
+            "101": "Unable to Rate",
+            "2": "Mild: Mild global slowness and poverty of spontaneous movements.",
+            "3": "Moderate: Moderate global slowness and poverty of spontaneous movements.",
+            "4": "Severe: Severe global slowness and poverty of spontaneous movements."
+        }
+    },
+    "NP3PTRMR": {
+        "Description": "3.15a Postural tremor - Right Hand",
+        "Levels": {
+            "0": "Normal: No tremor.",
+            "1": "Slight: Tremor is present but less than 1 cm in amplitude.",
+            "101": "Unable to Rate",
+            "2": "Mild: Tremor is at least 1, but less than 3 cm in amplitude.",
+            "3": "Moderate: Tremor is at least 3, but less than 10 cm in amplitude.",
+            "4": "Severe: Tremor is at least 10 cm in amplitude."
+        }
+    },
+    "NP3PTRML": {
+        "Description": "3.15b Postural tremor - Left hand"
+    },
+    "NP3KTRMR": {
+        "Description": "3.16a Kinetic tremor - Right hand"
+    },
+    "NP3KTRML": {
+        "Description": "3.16a Kinetic tremor - Left hand"
+    },
+    "NP3RTARU": {
+        "Description": "3.17a Rest tremor amplitude - RUE",
+        "Levels": {
+            "0": "Normal: No tremor.",
+            "1": "Slight: < 1 cm in maximal amplitude.",
+            "101": "Unable to Rate",
+            "2": "Mild: >= 1 cm but < 3 cm in maximal amplitude.",
+            "3": "Moderate: >= 3 cm but < 10 cm in maximal amplitude.",
+            "4": "Severe: >= 10 cm in maximal amplitude."
+        }
+    },
+    "NP3RTALU": {
+        "Description": "3.17b Rest tremor amplitude - LUE"
+    },
+    "NP3RTARL": {
+        "Description": "3.17c Rest tremor amplitude - RLE"
+    },
+    "NP3RTALL": {
+        "Description": "3.17d Rest tremor amplitude - LLE"
+    },
+    "NP3RTALJ": {
+        "Description": "3.17e Rest tremor amplitude - Lip/jaw"
+    },
+    "NP3RTCON": {
+        "Description": "3.18 Constancy of rest tremor",
+        "Levels": {
+            "0": "Normal: No tremor.",
+            "1": "Slight: Tremor at rest is present < 25% of the entire examination period.",
+            "101": "Unable to Rate",
+            "2": "Mild: Tremor at rest is present 26-50% of the entire examination period.",
+            "3": "Moderate: Tremor at rest is present 51-75% of the entire examination period.",
+            "4": "Severe: Tremor at rest is present > 75% of the entire examination period."
+        }
+    },
+    "NP3TOT": {
+        "Description": "MDS-UPDRS Part III Total Score. Mapped using formula NP3SPCH+NP3FACXP+NP3RIGN+NP3RIGRU+NP3RIGLU+PN3RIGRL+NP3RIGLL+NP3FTAPR+NP3FTAPL+NP3HMOVR+NP3HMOVL+NP3PRSPR+NP3PRSPL+NP3TTAPR+NP3TTAPL+NP3LGAGR+NP3LGAGL+NP3RISNG+NP3GAIT+NP3FRZGT+NP3PSTBL+NP3POSTR+NP3BRADY+NP3PTRMR+NP3PTRML+NP3KTRMR+NP3KTRML+NP3RTARU+NP3RTALU+NP3RTARL+NP3RTALL+NP3RTALJ+NP3RTCON"
+    },
+    "DYSKPRES": {
+        "Description": "3.19 Were dyskinesias present",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "DYSKIRAT": {
+        "Description": "3.20 Did movements interfere with rating",
+        "Levels": {
+            "0": "No",
+            "1": "Yes"
+        }
+    },
+    "NHY": {
+        "Description": "3.21 Hoehn and Yahr Stage",
+        "Levels": {
+            "0": "Asymptomatic.",
+            "1": "Unilateral movement only.",
+            "101": "Unable to Rate",
+            "2": "Bilateral involvement without impairment of balance.",
+            "3": "Mild to moderate involvement; some postural instability but physically independent; needs assistance to recover from pull test.",
+            "4": "Severe disability; still able to walk or stand unassisted."
+        }
+    },
+    "NP4WDYSK": {
+        "Description": "4.1 Time spent with dyskinesias",
+        "Levels": {
+            "0": "Normal: No dyskinesias.",
+            "1": "Slight: <= 25% of waking day.",
+            "101": "Unable to Rate",
+            "2": "Mild: 26 - 50% of waking day.",
+            "3": "Moderate: 51 - 75% of waking day.",
+            "4": "Severe: > 75% of waking day."
+        }
+    },
+    "NP4DYSKI": {
+        "Description": "4.2 Functional impact of dyskinesias",
+        "Levels": {
+            "0": "Normal: No dyskinesias or no impact by dyskinesias on activities or social interactions.",
+            "1": "Slight: Dyskinesias impact on a few activities, but the patient usually performs all activities and participates in all social interactions during dyskinetic periods.",
+            "101": "Unable to Rate",
+            "2": "Mild: Dyskinesias impact on many activities, but the patient usually performs all activities and participates in all social interactions during dyskinetic periods.",
+            "3": "Moderate: Dyskinesias impact on activities to the point that the patient usually does not perform some activities or does not usually participate in some social activities during dyskinetic episodes.",
+            "4": "Severe: Dyskinesias impact on function to the point that the patient usually does not perform most activities or participate in most social interactions during dyskinetic episodes."
+        }
+    },
+    "NP4OFF": {
+        "Description": "4.3 Time spent in the OFF state",
+        "Levels": {
+            "0": "Normal: No OFF time.",
+            "1": "Slight: <= 25% of waking day.",
+            "101": "Unable to Rate",
+            "2": "Mild: 26 - 50% of waking day.",
+            "3": "Moderate: 51 - 75% of waking day.",
+            "4": "Severe: > 75% of waking day."
+        }
+    },
+    "NP4FLCTI": {
+        "Description": "4.4 Functional impact of fluctuations",
+        "Levels": {
+            "0": "Normal: No fluctuations or no impact by fluctuations on performance of activities or social interactions.",
+            "1": "Slight: Fluctuations impact on a few activities, but during OFF, the patient usually performs all activities and participates in all social interactions that typically occur during the ON state.",
+            "101": "Unable to Rate",
+            "2": "Mild: Fluctuations impact many activities, but during OFF, the patient still usually performs all activities and participates in all social interactions that typically occur during the ON state.",
+            "3": "Moderate: Fluctuations impact on the performance of activities during OFF to the point that the patient usually does not perform some activities or participate in some social interactions that are performed during ON periods.",
+            "4": "Severe: Fluctuations impact on function to the point that, during OFF, the patient usually does not perform most activities or participate in most social interactions that are performed during ON periods."
+        }
+    },
+    "NP4FLCTX": {
+        "Description": "4.5 Complexity of motor fluctuations",
+        "Levels": {
+            "0": "Normal: No motor fluctuations",
+            "1": "Slight: OFF times are predictable all or almost all of the time (> 75%)",
+            "101": "Unable to Rate",
+            "2": "Mild: OFF times are predictable most of the time (51-75%).",
+            "3": "Moderate: OFF times are predictable some of the time (26-50%).",
+            "4": "Severe: OFF episodes are rarely predictable (<= 25%)."
+        }
+    },
+    "NP4DYSTN": {
+        "Description": "4.6 Painful OFF-state dystonia",
+        "Levels": {
+            "0": "Normal: No dystonia OR NO OFF TIME.",
+            "1": "Slight: <= 25% of time in OFF state.",
+            "101": "Unable to Rate",
+            "2": "Mild: 26 - 50% of time in OFF state.",
+            "3": "Moderate: 51 - 75% of time in OFF state.",
+            "4": "Severe: > 75% of time in OFF state."
+        }
+    },
+    "NP4TOT": {
+        "Description": "MDS-UPDRS Part IV Total Score. Mapped using formula NP4WDYSK+NP4DYSKI+NP4OFF+NP4FLCTI+NP4FLCTX+NP4DYSTN"
+    },
+    "DATSCAN_CAUDATE_R": {
+        "Description": "Striatal Binding Ratio of the Right Caudate Small brain region of interest referenced to the Occipital Lobe"
+    },
+    "DATSCAN_CAUDATE_L": {
+        "Description": "Striatal Binding Ratio of the Left Caudate Small brain region of interest referenced to the Occipital Lobe"
+    },
+    "DATSCAN_PUTAMEN_R": {
+        "Description": "Striatal Binding Ratio of the Right Putamen Small brain region of interest referenced to the Occipital Lobe"
+    },
+    "DATSCAN_PUTAMEN_L": {
+        "Description": "Striatal Binding Ratio of the Left Putamen Small brain region of interest referenced to the Occipital Lobe"
+    },
+    "DATSCAN_PUTAMEN_R_ANT": {
+        "Description": "Striatal Binding Ratio of the Right Anterior Putamen brain region of interest, referenced to the Occipital Lobe"
+    },
+    "DATSCAN_PUTAMEN_L_ANT": {
+        "Description": "Striatal Binding Ratio of the Left Anterior Putamen brain region of interest, referenced to the Occipital Lobe"
+    },
+    "DATSCAN": {
+        "Description": "DAT imaging and SPECT scan completed",
+        "Levels": {
+            "0": "Not Completed.",
+            "1": "Completed at this visit",
+            "2": "Completed using a previously acquired dopamine imaging scan (i.e., acquired prior to participant's consent to PPMI)"
+        }
+    },
+    "PREVDATDT": {
+        "Description": "Date of DaTscan imaging completed previously"
+    },
+    "VSINTRPT": {
+        "Description": "Visual Interpretation Report",
+        "Levels": {
+            "1": "Consistent with evidence",
+            "2": "Not consistent with evidence",
+            "3": "No visual interpretation report provided"
+        }
+    },
+    "DATSCAN_DATE": {
+        "Description": "Date of Scan Acquisition"
+    },
+    "DATSCAN_START_TIME": {
+        "Description": "SPECT Scan Start Time"
+    },
+    "DATSCAN_DATE_INJECTED": {
+        "Description": "Date of Injection"
+    },
+    "DATSCAN_TOTAL_DOSE_MBq": {
+        "Description": "Decay Corrected Total Dose in MBq"
+    },
+    "DATSCAN_TIME_INJECTED": {
+        "Description": "Time of Injection"
+    },
+    "X08_actual_dose_injected_E1_C2": {
+        "Description": "Total dose injected in MCi"
+    },
+    "DATSCAN_QUALITY_RATING": {
+        "Description": "Overall Image Quality Rating determined by Image Quality Control",
+        "Levels": {
+            "1": "1= Good quality",
+            "2": "2= Adequate quality",
+            "3": "3= Lower quality"
+        }
+    },
+    "DATSCAN_VISINTRP": {
+        "Description": "Overall Majority Read Visual Interpretation Result"
+    },
+    "MRI_SCAN_QUALITY_RATING": {
+        "Description": "Overall Image Quality Rating determined by Image Quality Control"
+    },
+    "MRI_SEQ_DTI": {
+        "Description": "Were DTI Sequences Acquired?"
+    },
+    "MRI_SEQ_RS": {
+        "Description": "Were Resting State Sequences Acquired?"
+    },
+    "MRI_SEQ_T1_WEIGHTED": {
+        "Description": "Were T1-weighted Sequences Acquired?"
+    },
+    "MRI_SEQ_T2_WEIGHTED": {
+        "Description": "Were T2-weighted Sequences Acquired?"
+    },
+    "MRI_SEQ_NM_MT": {
+        "Description": "Were Neuromelanin (NM-MT) Sequences Acquired?"
+    },
+    "MRI_SCAN_ANALYZED": {
+        "Description": "Is the MRI scan able to be analyzed?"
+    },
+    "MRICMPLT": {
+        "Description": "Brain MRI was completed"
+    },
+    "MRIWDTI": {
+        "Description": "DTI MRI Scan"
+    },
+    "MRIWRSS": {
+        "Description": "MRI with resting state sequences"
+    },
+    "MRIRSLT": {
+        "Description": "MRI results",
+        "Levels": {
+            "1": "Normal",
+            "2": "Abnormal, not clinically significant",
+            "3": "Abnormal, clinically significant"
+        }
+    },
+    "AV133_RCAUD_S": {
+        "Description": "Striatal Binding Ratio of the Right Caudate Small brain region of interest referenced to the Occipital Lobe"
+    },
+    "AV133_RPUTANT_S": {
+        "Description": "Striatal Binding Ratio of the Right Putament Anterior referenced to the Occipital Lobe"
+    },
+    "AV133_RPUTPOST_S": {
+        "Description": "Striatal Binding Ratio of the Right Putamen Posterior referenced to the Occipital Lobe"
+    },
+    "AV133_LCAUD_S": {
+        "Description": "Striatal Binding Ratio of the Left Caudate Small brain region of interest referenced to the Occipital Lobe"
+    },
+    "AV133_LPUTANT_S": {
+        "Description": "Striatal Binding Ratio of the Left Putamen Anterior referenced to the Occipital Lobe"
+    },
+    "AV133_LPUTPOST_S": {
+        "Description": "Striatal Binding Ratio of the Left Putamen Posterior referenced to the Occipital Lobe"
+    },
+    "AV133_WEIGHT": {
+        "Description": "Weight"
+    },
+    "AV133_WEIGHT_UNIT": {
+        "Description": "AV133_WEIGHT_UNIT",
+        "Levels": {
+            "kg": "kilograms",
+            "lb": "pounds"
+        }
+    },
+    "AV133_BATCH_NUMBER": {
+        "Description": "Radiopharmaceutical Batch Number"
+    },
+    "AV133_INJECTION_SITE": {
+        "Description": "Injection Site"
+    },
+    "AV133_EXPIRATION_DATE": {
+        "Description": "F-18-AV-133 Dose Expiration Date"
+    },
+    "AV133_EXPIRATION_TIME": {
+        "Description": "F-18-AV-133 Dose Expiration Time"
+    },
+    "AV133_INJECTION_VOLUME": {
+        "Description": "Volume of injection"
+    },
+    "AV133_INJECTION_TIME": {
+        "Description": "Time of Injection"
+    },
+    "AV133_TOTAL_DOSE_CALC": {
+        "Description": "Decay Corrected Total Dose Calculation in MBQ"
+    },
+    "AV133_SCAN_QUALITY_RATING": {
+        "Description": "Overall Image Quality Rating determined by Image Quality Control",
+        "Levels": {
+            "1": "1= Good quality",
+            "2": "2= Adequate quality",
+            "3": "3= Lower quality"
+        }
+    },
+    "HTCM": {
+        "Description": "Height (cm)"
+    },
+    "WGTKG": {
+        "Description": "Weight (kg)"
+    },
+    "STARTDT": {
+        "Description": "Start Date of Medication"
+    },
+    "LDOPA": {
+        "Description": "Levodopa at each point in time."
+    },
+    "LEDD": {
+        "Description": "Levodopa Equivalent Daily Dose at each point in time. (considers all Parkinsonian medications)"
+    },
+    "MCATOT": {
+        "Description": "MoCA total score. Il punteggio massimo totale è di 30 punti. I pazienti con punteggi inferiori a 26 potrebbero essere a rischio di disfunzioni cognitive"
+    }    
+}
